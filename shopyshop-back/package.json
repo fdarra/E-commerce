@@ -1,0 +1,25 @@
+{
+  "name": "shopyshop-back",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "front": "cd ../shopyshop-client && npm start",
+    "back": "nodemon server.js",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "concurrently": "^9.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mogoose": "^0.0.1-security",
+    "nodemon": "^3.1.7"
+  }
+}
